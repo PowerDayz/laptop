@@ -18,6 +18,8 @@
   import Management from "@apps/Management.svelte";
   import DarkWeb from "@apps/DarkWeb.svelte";
   import Employment from "@components/apps/Employment.svelte";
+  import x from "@apps/x.svelte"
+    import X from "@apps/x.svelte";
 
   // Register your app component here
   let registeredApp: any = {
@@ -27,6 +29,7 @@
     boss: Management,
     darkweb: DarkWeb,
     employment: Employment,
+    x: X,
   };
 
   let getComponent = (app: string) => {

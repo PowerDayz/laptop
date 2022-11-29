@@ -7,7 +7,7 @@ import { isEnvBrowser } from "./misc";
 export function InitDumyAppData() {
   if (!isEnvBrowser) return;
   let data: Array<IApp> = [
-    {
+    /*{
       name: "darkweb",
       icon: "skull",
       text: "Dark Web",
@@ -15,7 +15,7 @@ export function InitDumyAppData() {
       background: "black",
       isopen: false,
       useimage: false,
-    },
+    },*/
     {
       name: "boosting",
       icon: "fa-solid fa-bolt",
@@ -34,8 +34,7 @@ export function InitDumyAppData() {
       isopen: false,
       useimage: false,
     },
-
-    {
+    /*{
       name: "boss",
       icon: "fa-solid fa-circle-user",
       text: "Management",
@@ -43,6 +42,15 @@ export function InitDumyAppData() {
       background: "#4B5D67",
       isopen: false,
       useimage: false,
+    },*/
+    {
+      name: "x",
+      icon: "fas fa-file-contract",
+      text: "X",
+      color: "#fff",
+      background: "#73638D",
+      isopen: false,
+      useimage: false
     },
     {
       name: "setting",
@@ -52,8 +60,8 @@ export function InitDumyAppData() {
       background: "#4B5D67",
       isopen: false,
       useimage: false,
-    },
-    {
+    }
+    /*{
       name: "employment",
       icon: "fas fa-users",
       text: "Employment",
@@ -61,7 +69,7 @@ export function InitDumyAppData() {
       background: "#c26262",
       isopen: false,
       useimage: false
-    }
+    },*/
   ];
   setApp(data);
 }

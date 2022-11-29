@@ -64,5 +64,18 @@ Config.Apps = {
         gang = {},
         item = { "vpn" },
         default = false
+    },
+    ['x'] = {
+        app = 'x',
+        name = "X",
+        icon = "fa-solid fa-skull",
+        useimage = false,
+        color = '#fff',
+        background = "black",
+        job = {},
+        bannedJobs = { "police" },
+        gang = {},
+        item = { "laptopdongle" },
+        default = false
     }
 }

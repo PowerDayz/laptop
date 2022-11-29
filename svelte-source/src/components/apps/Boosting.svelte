@@ -219,8 +219,7 @@
             class:active={currentPage === "My Contracts"}
             on:click={() => {
               currentPage = "My Contracts";
-            }}>My Contracts</button
-          >
+            }}>My Contracts</button>
         </div>
         <div class="right">
           <button
